@@ -44,13 +44,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
-    <Compile Include="GenericContrcovReno.cs" />
-    <Compile Include="GenericContrcovCar.cs" />
-    <Compile Include="GenericCovCar.cs" />
-    <Compile Include="GenericCovReno.cs" />
-    <Compile Include="IGenericContrcov.cs" />
-    <Compile Include="IGenericCov.cs" />
+    <Compile Include="Base classes\Car.cs" />
+    <Compile Include="Generics Contrcov\GenericContrcovReno.cs" />
+    <Compile Include="Generics Contrcov\GenericContrcovCar.cs" />
+    <Compile Include="Generics Cov\GenericCovCar.cs" />
+    <Compile Include="Generics Cov\GenericCovReno.cs" />
+    <Compile Include="Interfaces\IGenericContrcov.cs" />
+    <Compile Include="Interfaces\IGenericCov.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,7 +59,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reno.cs" />
+    <Compile Include="Base classes\Reno.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -82,6 +82,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
