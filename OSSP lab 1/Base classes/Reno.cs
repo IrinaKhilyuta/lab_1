@@ -1,13 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Reno.cs" company="">
+//   
+// </copyright>
+// <summary>
+//   Defines the Reno type.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
 
 namespace OSSP_lab_1
 {
+    /// <summary>
+    /// The reno.
+    /// </summary>
     public class Reno : Car
     {
-        public string Model { set; get; }
+        /// <summary>
+        /// Gets or sets the model.
+        /// </summary>
+        public string Model { get; set; }
     }
 }
